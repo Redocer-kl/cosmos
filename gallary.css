@@ -1,0 +1,33 @@
+nav{
+    background-color: white;
+}
+.gallary-item{
+    display: flex;
+} 
+.gallary-item figure{
+    flex: 1;
+}
+.gallary-item figure img{
+    width: 100%;
+    height: 100%;
+}
+.gallary{
+    background-color: #0D0A1E;
+}
+@media (max-width: 768px){
+    .gallary-item{
+        flex-direction: column;
+    }
+}
+footer{
+    display: flex;
+}
+.footer-header h1{
+    font-size: 30px;
+}
+.col-1{
+    font-size: 40px;
+}
+.footer-header{
+    margin: 10px;
+}
