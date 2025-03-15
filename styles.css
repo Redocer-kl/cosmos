@@ -1,3 +1,8 @@
+body{
+    background-color: rgb(1, 10, 59);
+    color: white;
+}
+
 .overlap1{
     position: absolute;
     top: 75%; 
@@ -39,3 +44,47 @@
     bottom: 0;
     margin: 10px;
 }
+
+@media (max-width: 800px) {
+    .overlap1{
+        width: 40%;
+        
+        margin: 10;
+        padding: 20px;
+        
+    }
+    
+    button{
+        height: 55px;
+        width: 140px;
+    }
+
+    .overlap1 h1{
+        font-size:3vh;
+    }
+    .overlap1 h5{
+        font-size:medium;
+    }
+
+    
+}
+
+@media (max-width: 500px) {
+    .overlap1{
+        width: 40%;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+
+
+    .overlap1 h1{
+        font-size:medium;
+    }
+    .overlap1 h5{
+        font-size:small;
+    }
+    
+}
+
